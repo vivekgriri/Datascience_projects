@@ -9,11 +9,7 @@
   <h1 align="center">EDA - Netflix Popularity Analysis</h1>
   <p align="center">
     
-The Problem: Content Overload and Discovery Fatigue.
-
-The Goal: Maximize User Retention and Time Spent Listening (TSL).
-
-The Strategy: A Hybrid Model (Demographic + Content + Collaborative).
+Netflix Popularity Analyis between 2006 to 2018
   </p>
 </div>
 
