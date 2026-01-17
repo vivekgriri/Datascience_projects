@@ -48,13 +48,13 @@ Picture Association of America.
   <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image9.jpg">
 </p>
 
-__Released Year Wise Analysis__ 2018 was the year when most of the movies were released
+__Released Year Wise Analysis :__   2018 was the year when most of the movies were released
 
 <p align="center">
   <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image10.jpg">
 </p>
 
-__Countries with highest rated content count Analysis__ United States have highest rated content on the netflix
+__Countries with highest rated content count Analysis:__   United States have highest rated content on the netflix
 
 <p align="center">
   <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image11.jpg">
