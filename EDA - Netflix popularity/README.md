@@ -2,7 +2,7 @@
 <br />
 <div align="center">
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image1.jpg">
+  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image7.jpg">
 </p>
 
 
