@@ -2,22 +2,23 @@
 <br />
 <div align="center">
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image7.jpg">
+  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/USC.jpg">
 </p>
 
 
-  <h1 align="center">EDA - Netflix Popularity Analysis</h1>
+  <h1 align="center">US Childcare Affordability Crisis</h1>
   <p align="center">
     
-Netflix Popularity Analyis between 2006 to 2018
+Objective: Quantify and visualize regional childcare cost burdens relative to household income.
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device. You can also download TV shows and movies to your iOS, Android, or Windows 10 device and watch
-without an internet connection.This is an EDA or a story telling through its data along with awide range of diﬀerent graphs and visuals to explore various aspect of popularity across different scenarios.
+The "National Childcare Affordability Crisis" project is a social-economic data study aimed at uncovering the financial strain placed on American families by rising childcare costs. While many families feel the "pinch" of monthly expenses, this project quantifies that struggle by mapping childcare prices against median household incomes across different U.S. counties.
+
+The project was born from a need to provide evidence-based storytelling. Instead of just looking at raw numbers, it translates data into a narrative that moves from a broad national overview to specific, high-impact regional crises. By highlighting the gap between what families earn and what childcare actually costs, the project serves as a diagnostic tool for identifying where government subsidies and policy changes are needed most.
 
 
 ### Built With
@@ -26,46 +27,30 @@ without an internet connection.This is an EDA or a story telling through its dat
 * seaborn module
 * matplotlib
 
+
+### Data
+The analysis is built upon the National Database of Childcare Prices, the most comprehensive federal source of local-level childcare price data.
+
+__Key Focus Areas:__ Analyzed the costs of three specific care types: Infant, Toddler, and Preschool care.
+
+__Economic Benchmarks:__ To measure "affordability," these costs were compared against the Median Household Income (MHI) of the respective regions.
+
+__Scope:__ The dataset covers multiple years and thousands of counties, allowing for a look at how geography dictates a family's financial health.
+
+
+### Method of Analysis
+To make this data understandable for the public and policymakers, I used a structured analytical pipeline:
+
+__Data Aggregation:__ I consolidated 6-month price averages to smooth out monthly fluctuations and provide a stable view of costs.
+
+__Comparative Visualization:__ Using Python (Pandas, Seaborn), I created grouped visualizations that rank the most expensive states and care types. This immediately identifies "hotspots" where infant care costs significantly more than preschool care.
+
+__Narrative Strategy:__  Organized the results into three layers: a Presentation for high-level summaries, an Infographic for quick economic impact facts, and a Dashboard for interactive, granular exploration.
+
+
 ### Summary 
 
-__Analysis of Movies vs TV Shows:__ The growth in number of movies on netflix is much higher than that of TV shows.
-
-<p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image8.jpg">
-</p>
-
-__Movie Ratings Analysis:__ Here we discover that UR and NR is the same rating(unrated,Not rated Uncut/extended versions of films that are labeled "Unrated" also contain warnings saying that the uncut version of the film contains content that diﬀers from the theatrical release and might not be suitable for minors.
-
-The largest count of movies are made with the 'TV-MA' rating."TV-MA" is a rating assigned by the TV Parental Guidelines to a television program that was designed for mature audiences only.
-
-Second largest is the 'TV-14' stands for content that may be inappropriate for children rating younger than 14 years of age.
-
-Third largest is the very popular 'R' rating.An R-rated film is a film that has been assessed as
-having material which may be unsuitable for children under the age of 17 by the Motion
-Picture Association of America.
-
-<p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image9.jpg">
-</p>
-
-__Released Year Wise Analysis :__   2018 was the year when most of the movies were released
-
-<p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image10.jpg">
-</p>
-
-__Countries with highest rated content count Analysis:__   United States have highest rated content on the netflix
-
-<p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image11.jpg">
-</p>
-
-### Conclusion
-As we noted through this notebook; Netflix is very popular among various social classes,and as we all know it has increased in popularity during the Covid-19 pandemic.
-
-Netflix is continuedly adding new content on their platform. We can see exponential growth in new content after 2016.
-Most of the content added on Netflix in 2018 and 2019 are released in same year.There are many diﬀerent genre available on Netflix to attract wide range of subscribers.
-
+The core finding of this project is that the childcare crisis is spatially uneven. In many regions, the cost of infant care alone consumes a disproportionate percentage of a family's take-home pay. By presenting this data visually, the project empowers advocacy groups and state leaders to move from "recognizing a problem" to "designing a solution," such as targeted subsidies for high-cost infant care.
 
 <!-- CONTACT -->
 ## Contact
